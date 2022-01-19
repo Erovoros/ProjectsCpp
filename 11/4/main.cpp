@@ -50,7 +50,7 @@ float getFloat(std::string value) {
         result = (float) intLeft - floatRight;
     }
 
-    return result;
+    return result ;
 
 
 }

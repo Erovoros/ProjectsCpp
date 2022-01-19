@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/4/cmake-build-debug"
+			"value" : "C:/ProjectsCpp/11/4/cmake-build-debug"
 		},
 		{
 			"name" : "4_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/4"
+			"value" : "C:/ProjectsCpp/11/4"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/SkillboxProjects/11/4/cmake-build-debug"
+			"value" : "c:/ProjectsCpp/11/4/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/SkillboxProjects/11/4"
+			"value" : "C:/ProjectsCpp/11/4"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
