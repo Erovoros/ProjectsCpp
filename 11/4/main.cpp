@@ -43,11 +43,20 @@ std::string getLeftString(std::string fullString) {
 std::string getRightString(std::string fullString, std::string leftString) {
     std::string rightString;
 
+    int counterZero;
+
+    for (counterZero = 0; counterZero < fullString.length(); counterZero++) {
+        if (fullString[counterZero] != '0') {
+            break;
+        }
+    }
+
+
     if (fullString.length() == leftString.length()) {
         rightString += '0';
     }
 
-    for (int i = leftString.length() + 1; i < fullString.length(); i++) {
+    for (int i = leftString.length() + counterZero + 1; i < fullString.length(); i++) {
         rightString += fullString[i];
     }
     return rightString;
