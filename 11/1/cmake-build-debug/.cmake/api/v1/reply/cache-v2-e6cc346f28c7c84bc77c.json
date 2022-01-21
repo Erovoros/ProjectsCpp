@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "5_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/5/cmake-build-debug"
-		},
-		{
-			"name" : "5_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "5_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/5"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -91,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/SkillboxProjects/11/5/cmake-build-debug"
+			"value" : "c:/ProjectsCpp/11/1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -659,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/SkillboxProjects/11/5"
+			"value" : "C:/ProjectsCpp/11/1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -671,7 +635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/5"
+			"value" : "C:/Program Files (x86)/untitled1"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -887,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "5"
+			"value" : "untitled1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1264,6 +1228,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "untitled1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/ProjectsCpp/11/1/cmake-build-debug"
+		},
+		{
+			"name" : "untitled1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "untitled1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/ProjectsCpp/11/1"
 		}
 	],
 	"kind" : "cache",

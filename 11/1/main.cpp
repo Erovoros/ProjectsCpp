@@ -49,7 +49,7 @@ int main() {
     std::cout << "Enter a number for shift: " << std::endl;
     std::cin >> number;
 
-    number = number%28;
+    number = number%26;
 
 
     caesar = encrypt_caesar(caesar, number);

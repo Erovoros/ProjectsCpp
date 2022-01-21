@@ -64,11 +64,8 @@ char getElement(int xpos, int ypos, std::string firstString, std::string secondS
 }
 
 bool check (char element1, char element2, char element3, char xo) {
-    if ((element1 == xo) && (element2 == xo) && (element3 == xo)) {
-        return true;
-    } else {
-        return false;
-    }
+
+    return ((element1 == xo) && (element2 == xo) && (element3 == xo));
 
 }
 

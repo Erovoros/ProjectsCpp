@@ -2,7 +2,7 @@
 	"entries" : 
 	[
 		{
-			"name" : "3_BINARY_DIR",
+			"name" : "5_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -11,10 +11,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/3/cmake-build-debug"
+			"value" : "C:/ProjectsCpp/11/5/cmake-build-debug"
 		},
 		{
-			"name" : "3_IS_TOP_LEVEL",
+			"name" : "5_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -26,7 +26,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "3_SOURCE_DIR",
+			"name" : "5_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/SkillboxProjects/11/3"
+			"value" : "C:/ProjectsCpp/11/5"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/SkillboxProjects/11/3/cmake-build-debug"
+			"value" : "c:/ProjectsCpp/11/5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/SkillboxProjects/11/3"
+			"value" : "C:/ProjectsCpp/11/5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/3"
+			"value" : "C:/Program Files (x86)/5"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -887,7 +887,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "3"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_RANLIB",

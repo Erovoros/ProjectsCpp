@@ -54,7 +54,10 @@ int getNumber(std::string ip, int number) {
 
 bool is_number_correct(int number) {
 
-    ((number > 255) || (number < 0)) ? false : true;
+
+
+    return  (((number > 255) || (number < 0))) ? false : true;
+
 
 
 }
@@ -123,7 +126,7 @@ int main() {
 
     std::cout << "Enter an IP address:" << std::endl;
     std::cin >> ip;
-    (is_correct(ip)) ? (std::cout << "Yes" << std::endl) : (std::cout << "No" << std::endl);
+    std::cout << (is_correct(ip)  ? "Yes" : "No") << std::endl;
 
 
 }

@@ -1,3 +1,3 @@
-C:/SkillboxProjects/11/3/cmake-build-debug/CMakeFiles/3.dir
-C:/SkillboxProjects/11/3/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/SkillboxProjects/11/3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/ProjectsCpp/11/3/cmake-build-debug/CMakeFiles/3.dir
+C:/ProjectsCpp/11/3/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/ProjectsCpp/11/3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -557,6 +557,16 @@
 			"path" : "C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-GNU.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeDetermineRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeRCCompiler.cmake.in"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
 		},
@@ -569,6 +579,11 @@
 			"isCMake" : true,
 			"isExternal" : true,
 			"path" : "C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/Platform/Windows-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/JetBrains/CLion 2021.3.2/bin/cmake/win/share/cmake-3.21/Modules/CMakeTestRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -742,8 +757,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/SkillboxProjects/11/1/cmake-build-debug",
-		"source" : "C:/SkillboxProjects/11/1"
+		"build" : "C:/ProjectsCpp/11/5/cmake-build-debug",
+		"source" : "C:/ProjectsCpp/11/5"
 	},
 	"version" : 
 	{
