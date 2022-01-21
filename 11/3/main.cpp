@@ -15,7 +15,7 @@ int getNumber(std::string ip, int number) {
             break;
         }
 
-        if ((ip[i] == '.') || (ip[i] == NULL)) {
+        if ((ip[i] == '.') || (ip[i] == '\0')) {
             dots++;
             if (dots == number - 1) {
                 i++;
@@ -26,13 +26,13 @@ int getNumber(std::string ip, int number) {
     }
 
     {
-        for (i; ((ip[i] != '.') && (ip[i] != NULL)); i++) {
+        for (i; ((ip[i] != '.') && (ip[i] != '\0')); i++) {
             extractNumber += ip[i];
 
         }
     }
 
-    if ((extractNumber[0] == NULL) || ((extractNumber[0] == 48) && (extractNumber[1] != NULL)) ) {
+    if ((extractNumber[0] == '\0') || ((extractNumber[0] == 48) && (extractNumber[1] != '\0')) ) {
         return -1;
     }
 
