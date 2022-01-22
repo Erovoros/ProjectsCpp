@@ -1,5 +1,41 @@
 #include <iostream>
 
+bool checkForZero (std::string stringOne, std::string stringTwo) {
+    std::string dictionary = "-0.";
+    bool stringOneZero;
+    bool stringTwoZero;
+    int counterOne = 0;
+    int counterTwo = 0;
+    for (int i = 0; i < stringOne.length(); i++) {
+        for (int j = 0; j < dictionary.length(); j++) {
+            if (stringOne[i] == dictionary[j]) {
+                counterOne++;
+                break;
+            }
+        }
+    }
+    if (counterOne == stringOne.length()) {
+        stringOneZero = true;
+    }
+
+    for (int i = 0; i < stringTwo.length(); i++) {
+        for (int j = 0; j < dictionary.length(); j++) {
+            if (stringTwo[i] == dictionary[j]) {
+                counterTwo++;
+                break;
+            }
+        }
+    }
+    if (counterTwo == stringTwo.length()) {
+        stringTwoZero = true;
+    }
+
+    if (stringOneZero && stringTwoZero) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 std::string getLeftString(std::string fullString) {
 
@@ -90,7 +126,7 @@ int compareLeftStrings(std::string stringOne, std::string stringTwo) {
         }
     }
 
-    if ((stringOne[0] != '-') && (stringOne[0] != '-')) {
+    if ((stringOne[0] != '-') && (stringTwo[0] != '-')) {
         if (intOne > intTwo) {
             return 1;
         } else if (intOne < intTwo) {
@@ -98,7 +134,7 @@ int compareLeftStrings(std::string stringOne, std::string stringTwo) {
         }
     }
 
-    if ((stringOne[0] == '-') && (stringOne[0] == '-')) {
+    if ((stringOne[0] == '-') && (stringTwo[0] == '-')) {
         if (intOne < intTwo) {
             return 1;
         } else if (intOne > intTwo) {
@@ -120,6 +156,8 @@ int compareRightStrings(std::string stringOne, std::string stringTwo, char sign)
 
     char floatOne;
     char floatTwo;
+
+
 
 
     if (stringOne.length() < stringTwo.length()) {
@@ -180,13 +218,10 @@ int main() {
     std::string stringTwo;
 
 
-
     std::cout << "Enter the first number: " << std::endl;
     std::cin >> stringOne;
     std::cout << "Enter the second number: " << std::endl;
     std::cin >> stringTwo;
-
-
 
 
     std::string firstLeftString;
@@ -199,6 +234,10 @@ int main() {
     int result2;
     char sign;
 
+    if (checkForZero(stringOne, stringTwo)) {
+    std::cout << "Equal";
+    return 0;
+}
     firstLeftString = getLeftString(stringOne);
     secondLeftString = getLeftString(stringTwo);
     firstRightString = getRightString(stringOne, firstLeftString);
