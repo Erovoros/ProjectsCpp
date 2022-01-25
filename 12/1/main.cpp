@@ -1,32 +1,32 @@
 #include <iostream>
 
+
+
 int main() {
-    int numbers[15] = {114, 111, 106, 107, 108, 105, 115, 108, 110, 109, 112, 113, 116, 117, 118};
-    int min = numbers[0];
-    int max = numbers[0];
-    int realSum = 0;
-    int sum = 0;
-    int result;
+    std::string people[10];
+    int room[3];
 
-    for (int i = 0; i < 15; i++) {
-        if (numbers[i] < min) {
-            min = numbers[i];
+
+    std::cout << "Enter ten names"  << std::endl;
+
+
+    for (int i = 0; i < 10; i++) {
+        std::cin >> people[i];
+    }
+    std::cout << "Enter three rooms: "  << std::endl;
+
+    for (int j = 0; j < 3; j++) {
+        std::cin >> room[j];
+        if (room[j]>0 && room[j] <= 10) {
+            std::cout << people[room[j] - 1] << std::endl;
         }
-
-        if (numbers[i] > max) {
-            max = numbers[i];
+        else {
+            std::cout << "Incorrect number" << std::endl;
         }
-
-        sum += numbers[i];
     }
 
-    for (int i = min; i <= max; i++) {
-        realSum += i;
-    }
 
-    result = sum - realSum;
 
-    std::cout << result << std::endl;
 
 
 }
