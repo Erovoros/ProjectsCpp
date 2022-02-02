@@ -4,37 +4,54 @@
 int main() {
 
     std::vector<int> vec(20);
+    std::vector<int> newVec(20);
 
-    int i = 0;
+
     int temp;
+    int result;
+    int j = 0;
+    int k = 0;
+    int i = 0;
 
-    while (true) {
-        std::cin >> temp;
+    for (i;;) {
 
-        if ((i == 20) && (temp != -1)) {
-            vec.erase(vec.begin());
-            i = 19;
-            vec.resize(vec.size() + 1);
-        }
+        std::cin >> result;
 
-        if (temp == -1) {
+        if (result == -1) {
             break;
         }
 
-        vec[i] = temp;
+        temp = i % vec.size();
+
+        vec[temp] = result;
         i++;
 
     }
 
-    if (i < 20) {
-        for (int j = 20; j > i; j--) {
-            vec.pop_back();
+    if (i < vec.size()) {
+        vec.resize(i);
+        for (int m = 0; m < vec.size(); m++) {
+            std::cout << vec[m] << std::endl;
         }
+        return 0;
+
     }
 
 
-    for (int j = 0; j < vec.size(); j++) {
-        std::cout << vec[j] << std::endl;
+    for (int n = temp + 1; n < vec.size(); n++) {
+
+        newVec[j] = vec[n];
+        j++;
     }
+
+    for (j, k; j < newVec.size(); j++, k++) {
+        newVec[j] = vec[k];
+    }
+
+
+    for (int m = 0; m < newVec.size(); m++) {
+        std::cout << newVec[m] << std::endl;
+    }
+
 
 }

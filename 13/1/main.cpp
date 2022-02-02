@@ -4,6 +4,8 @@
 int main() {
     int n;
     int m;
+    int j = 0;
+    int counter = 0;
 
     std::cout << "Enter vector length" << std::endl;
 
@@ -23,13 +25,25 @@ int main() {
 
     for (int i = 0; i < vec.size(); i++) {
         if (vec[i] == m) {
-            vec.erase(vec.begin() + i);
-            i = 0;
+            counter++;
+
         }
     }
 
+    //declare a new vector counter elements less than original vector
+
+    std::vector<int> newVec(n - counter);
+
     for (int i = 0; i < vec.size(); i++) {
-        std::cout << vec[i] << std::endl;
+        if (vec[i] != m) {
+            newVec[j] = vec[i];
+            j++;
+        }
+    }
+
+
+    for (int i = 0; i < newVec.size(); i++) {
+        std::cout << newVec[i] << std::endl;
     }
 
 
